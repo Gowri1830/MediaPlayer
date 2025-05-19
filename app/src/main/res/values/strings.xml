@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MediaPlayer</string>
+    <string name="play_button">Play</string>
+    <string name="status_idle">Status: Idle</string>
+    <string name="team_info">Team: Adithya Nair - 22BTDS180\nRupesh K - 22BTDS181\nUdit - 22BTDS182\nGowri M A - 22BTDS183</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="408dp"
+        android:layout_height="329dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/imglogo" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_button"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/status_idle"
+        android:layout_below="@id/btnPlay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtTeamInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team:\nAdithya Nair - 22BTDS180\nRupesh K - 22BTDS181\nR Udith - 22BTDS182\nGowri M A - 22BTDS183"
+        android:textSize="12sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:gravity="end" />
+
+</RelativeLayout>
